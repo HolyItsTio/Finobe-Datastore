@@ -1,9 +1,10 @@
+//I never bothered to learn proper js so code is VERY MESSY. (I think)
 const express = require('express');
 const app = express();
 const fs = require("fs");
 const Sequelize = require('sequelize');
 
-var database = new Sequelize('sqlite::memory:', 'Finobe1', 'Join7Breakness6Today5And3Get@Really!Happy!', {
+var database = new Sequelize('sqlite::memory:', 'Finobe1', 'changethis', {
   host: "127.0.0.1",
   dialect: "sqlite",
   pool: {
@@ -18,7 +19,7 @@ var User
 database.authenticate()
 .then(function(){
   console.log("Connection established!");
-  User = database.define("Finobe3", {
+  User = database.define("changetoo", {
     PlaceId: {
       type: Sequelize.STRING
     },
