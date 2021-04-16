@@ -1,0 +1,20 @@
+{
+  "name": "Finobe-Datastore",
+  "version": "1.0.1",
+  "description": "Simple DataStore for Finobe.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "sequelize": "*",
+    "sqlite3": "*"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+  "license": "GNU2",
+}
